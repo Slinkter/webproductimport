@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+.img_resize_nav {
+    height: 26px;
+}
+
+.nav-background {
+    background: #343a40
+}
+
+.grow {
+    transition: all 0.3s linear 0s;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: scale(1.09);
+    animation-delay: 0.9s;
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
